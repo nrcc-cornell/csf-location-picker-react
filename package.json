@@ -4,7 +4,8 @@
   "homepage": "https://cicss.github.io/csf-location-picker-react/",
   "private": true,
   "devDependencies": {
-    "custom-react-scripts": "0.2.2"
+    "custom-react-scripts": "0.2.2",
+    "gh-pages": "^1.1.0"
   },
   "dependencies": {
     "jquery": "^3.3.1",
@@ -16,6 +17,8 @@
     "react-dom": "^16.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
