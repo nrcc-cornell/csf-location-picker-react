@@ -36,9 +36,9 @@ const URL_google_api = `${HOST}?key=${KEY}`;
 
 @scriptLoader(
   [URL_google_api],
-  '/assets/location-dialog-min.js',
-  '/assets/basil.min.js',
-  '/assets/manage-local-storage.js',
+  'https://cicss.github.io/csf-location-picker-react/assets/location-dialog-min.js',
+  'https://cicss.github.io/csf-location-picker-react/assets/basil.min.js',
+  'https://cicss.github.io/csf-location-picker-react/assets/manage-local-storage.js',
 )
 
 @inject("store") @observer
