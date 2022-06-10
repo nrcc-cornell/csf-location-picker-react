@@ -1,7 +1,7 @@
 {
   "name": "csf-location-picker-react",
   "version": "0.1.0",
-  "homepage": "https://cicss.github.io/csf-location-picker-react/",
+  "homepage": "https://nrcc-cornell.github.io/csf-location-picker-react/",
   "private": true,
   "devDependencies": {
     "custom-react-scripts": "0.2.2",
